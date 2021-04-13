@@ -114,7 +114,7 @@ nav a:hover {
     height: 110px;
     border-left: 2px solid #6c97be;
     left: 50%;
-    margin: 0 auto;
+    margin: 1em auto;
 }
 .wtz-container {
     width: 100%;
@@ -182,9 +182,7 @@ nav a:hover {
 }
 
 .wtz-campus__img {
-    /* position: absolute; */
     width: 100%;
-    /* object-fit: cover; */
     margin: 0 auto;
     z-index: 0;
 }
@@ -192,10 +190,7 @@ nav a:hover {
 .wtz-campus__info {
     padding: 1em 0.5em;
     margin: 1.5em 0.5em;
-    /* position: relative; */
     border: 1px solid #779988;
-    /* z-index: 100; */
-    /* color: ; */
 }
 
 footer {
@@ -255,17 +250,21 @@ footer {
     .wtz-navigation li {
         margin: 0.5em 0;
     }
-    /* .article-recent-main {
-        width: 68%;
+
+    .wtz-line {
+        height: 200px;
+        border-left: 2px solid #6c97be;
+        left: 60%;
+        margin: 1em auto;
     }
 
-    .article-recent-secondary {
-        width: 30%;
-    }
+}
 
-    .aticle-image {
-        width: 100%;
-        min-height: 250px;
-        object-fit: cover;
-    } */
+@media (min-width: 400px) and (max-width:600px){
+    .wtz-line {
+        height: 300px;
+        border-left: 2px solid #6c97be;
+        left: 60%;
+        margin: 1em auto;
+    }
 }
