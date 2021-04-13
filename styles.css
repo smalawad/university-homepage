@@ -55,7 +55,7 @@ hr {
 
 .wtz-main__title:hover,
 .wtz-subtitle:hover {
-    color: #ecf022;
+    color: #a3e961;
     
 }
 .wtz-navigation ul{
@@ -78,7 +78,7 @@ nav a{
 }
 
 nav a:hover {
-    color: #ecf022;
+    color: #a3e961;
     border-bottom: 1px solid #51f121 ;
 }
 
@@ -105,6 +105,8 @@ nav a:hover {
 
 .wtz-dep__container {
     width: 45%;
+    font-size: 1.1rem
+
 }
 
 .wtz-dep__branches{
@@ -112,7 +114,7 @@ nav a:hover {
     list-style: none;
     text-align: start;
     font-weight: bold;
-    
+    font-size: 1.2rem;
 }
 
 .wtz-dep__branches a{
@@ -120,8 +122,12 @@ nav a:hover {
     text-decoration: none;
 }
 
+.wtz-dep__branches a:hover {
+    color: #a3e961;
+}
+
 .wtz-line {
-    height: 110px;
+    height: 22vh;
     border-left: 2px solid #6c97be;
     left: 50%;
     margin: 1em auto;
@@ -182,13 +188,15 @@ nav a:hover {
     color: #0f4c75;
     text-align: center;
     order: 2;
+    font-size: 1.3rem;
 }
 
 .wtz-course__info {
     color: #252829;
     letter-spacing: 0.05em;
     order: 3;
-    
+    font-size: 1rem;
+    margin: 1.5em 0.75em;
 }
 
 .course-img,
@@ -212,8 +220,9 @@ nav a:hover {
 
 .wtz-campus__info {
     padding: 1em 0.5em;
-    margin: 1.5em 0.5em;
+    margin: 1.5em 0.75em;
     border: 1px solid #779988;
+    font-size: 1em;
 }
 
 footer {
@@ -246,6 +255,10 @@ footer {
     letter-spacing: 0.05em;
 }
 
+.wtz-footer__col a:hover {
+    color: #a3e961;
+}
+
 .wtz-footer__title{
     padding-bottom: 0;
     margin-bottom: 0.5em;
@@ -275,7 +288,7 @@ footer {
     }
 
     .wtz-line {
-        height: 200px;
+        height: 40vh;
         border-left: 2px solid #6c97be;
         left: 60%;
         margin: 1em auto;
@@ -285,7 +298,7 @@ footer {
 
 @media (min-width: 400px) and (max-width:600px){
     .wtz-line {
-        height: 300px;
+        height: 60vh;
         border-left: 2px solid #6c97be;
         left: 60%;
         margin: 1em auto;
