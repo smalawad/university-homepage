@@ -29,6 +29,7 @@ hr {
     background-color: #0f4c75 ;
     justify-content: space-between;
     width: 100%;
+    position: fixed;
 }
 
 .wtz-title {
@@ -100,13 +101,12 @@ nav a:hover {
     border: 1px solid #798777;
     padding-left: 0.75em;
     margin-left: 0.75em;
-    /* justify-content: space-between; */
+    
 }
 
 .wtz-dep__container {
     width: 45%;
     font-size: 1.1rem
-
 }
 
 .wtz-dep__branches{
@@ -169,9 +169,11 @@ nav a:hover {
 
 .wtz-heading__img {
     width: 100%;
-    object-fit: cover;
+    /* object-fit: cover; */
     margin: 0 auto;
-   
+    background-size: 100%;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
 }
 
 .wtz-course{
@@ -272,8 +274,17 @@ footer {
     font-size: 0.75em;
 }
 
-@media (max-width: 700px) {
+@media (max-width: 900px) {
+    .wtz-head-container {
+        position:unset;
+    }
+
+    .wtz-title {
+        text-align: center;
+    }
+
     .wtz-navigation {
+        text-align: center;
         flex-direction: column;
         justify-content: space-between;
     }
@@ -281,6 +292,7 @@ footer {
     .wtz-navigation ul{
         flex-direction: column;
         justify-content: space-between;
+        text-align: center;
     }
 
     .wtz-navigation li {
@@ -297,6 +309,14 @@ footer {
 }
 
 @media (min-width: 400px) and (max-width:600px){
+    .wtz-head-container {
+        position:unset;
+    }
+
+    .wtz-title{
+        text-align: center;
+    }
+
     .wtz-line {
         height: 60vh;
         border-left: 2px solid #6c97be;
