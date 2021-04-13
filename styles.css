@@ -36,7 +36,8 @@ hr {
 }
 
 .wtz-main__title{
-    margin-bottom: 0.125em;
+    margin: 0.5em;
+
 }
 .wtz-subtitle {
     margin: 0 2em;
@@ -238,4 +239,33 @@ footer {
 }
 .wtz-copyright{
     font-size: 0.75em;
+}
+
+@media (max-width: 700px) {
+    .wtz-navigation {
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .wtz-navigation ul{
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .wtz-navigation li {
+        margin: 0.5em 0;
+    }
+    /* .article-recent-main {
+        width: 68%;
+    }
+
+    .article-recent-secondary {
+        width: 30%;
+    }
+
+    .aticle-image {
+        width: 100%;
+        min-height: 250px;
+        object-fit: cover;
+    } */
 }
