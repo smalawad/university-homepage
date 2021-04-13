@@ -346,6 +346,9 @@ footer {
         margin: 1em auto;
     }
 
+    .wtz-course__col {
+        margin-left: 0.125em;
+    }
 }
 
 @media (min-width: 400px) and (max-width:600px){
@@ -362,5 +365,9 @@ footer {
         border-left: 2px solid #6c97be;
         left: 60%;
         margin: 1em auto;
+    }
+
+    .wtz-course__col {
+        margin-left: 0.125em;
     }
 }
