@@ -10,6 +10,14 @@ body {
     font-size: 16px;
 }
 
+h1 {
+    font-size: 2.5rem;
+}
+
+h2 {
+    font-size: 1.8rem;
+}
+
 hr {
     color: #798777;
     
@@ -36,11 +44,12 @@ hr {
 }
 
 .wtz-main__title{
-    margin: 0.5em;
+    margin: 0.5em 0.5em 0 0.5em;
 
 }
+
 .wtz-subtitle {
-    margin: 0 2em;
+    margin: 0 2em 0.75em 2em;
     font-size: 0.75rem;
 }
 
@@ -77,6 +86,7 @@ nav a:hover {
     display: flex;
     flex-direction: column;
 }
+
 .wtz-main-heading{
     color: #0f4c75;
     font-size: 2rem;
@@ -144,9 +154,11 @@ nav a:hover {
 }
 
 .wtz-heading{
+    color: #0f4c75;
     position: relative;
     z-index: 10;
     text-align: center;
+    margin: 0.75em;
 }
 
 .wtz-heading__img {
@@ -162,7 +174,12 @@ nav a:hover {
 }
 
 .wtz-course__heading{
-    color: #252829;
+    text-align: center;
+    color: #0f4c75;
+}
+
+.wtz-course__subheading{
+    color: #0f4c75;
     text-align: center;
     order: 2;
 }
@@ -173,12 +190,18 @@ nav a:hover {
     order: 3;
     
 }
+
 .course-img,
 .faculty-img {
     width: 97%;
     align-content: center;
     padding: 0.25em;
     order: 1;
+}
+
+.wtz-campus__heading{
+    text-align: center;
+    color: #0f4c75;
 }
 
 .wtz-campus__img {
