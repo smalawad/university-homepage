@@ -299,6 +299,7 @@ footer {
 
 .wtz-footer__col a:hover {
     color: #a3e961;
+    border-bottom: 1px solid #51f121 ;
 }
 
 .wtz-footer__title{
